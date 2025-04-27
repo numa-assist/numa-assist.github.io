@@ -16,11 +16,19 @@
       min-height: 100vh;
     }
     header {
-      background-color: #e65100;
-      color: white;
-      padding: 20px;
-      font-size: 2.5em;
-    }
+    background-color: #e65100;
+    color: white;
+    padding: 15px 20px;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-img {
+    height: 40px;
+    margin-right: 12px;
+  }
     main {
       flex-grow: 1;
       padding: 40px 20px;
@@ -58,7 +66,9 @@
 </head>
 <body>
 
-  <header>Numa - The best buddy for your grandma! <img src="logo.png" alt="Numa Logo" class="logo">
+  <header>
+  <img src="logo.png" alt="Numa Logo" class="header-img">
+  <span>Numa</span>
   </header>
 
   <main>
